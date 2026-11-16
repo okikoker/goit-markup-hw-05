@@ -88,7 +88,7 @@
 }
 
 .form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-label {
@@ -110,10 +110,10 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
-  padding-left: 42px;
+  padding-left: 38px;
   padding-right: 16px;
-  font-size: 12px;
-  line-height: 1.17;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -224,6 +224,7 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .submit-btn:hover,
