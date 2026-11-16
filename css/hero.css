@@ -1,26 +1,19 @@
 .hero {
-  /* 1. додай фонове зображення та 2. напівпрозорий градієнт поверх зображення */
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url('../images/hero-bg.jpg');
 
-  /* 3. заборони повторення зображення */
   background-repeat: no-repeat;
 
-  /* 4. розташуй фон по центру */
   background-position: center;
 
-  /* 5. зроби так, щоб фон заповнював секцію */
   background-size: cover;
 
-  /* 6. обмеж максимальну ширину секції відповідно до макету (1440px) */
   max-width: 1440px;
 
-  /* 7. відцентруй секцію на сторінці */
   margin-left: auto;
   margin-right: auto;
 
-  /* Базовий колір фону та вертикальні відступи за макетом */
   background-color: #2e2f42;
   padding: 188px 0;
 }
